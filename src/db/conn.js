@@ -1,6 +1,6 @@
 const mongoose=require("mongoose");
 
-mongoose.connect("mongodb://localhost:27017/studentapi2",{
+mongoose.connect("mongodb+srv://Harshit787:abcAtlas14@clusterrestapi.ftd35hj.mongodb.net/",{
    //useCreateIndex:true,
     useNewUrlParser:true,
     useUnifiedTopology:true
